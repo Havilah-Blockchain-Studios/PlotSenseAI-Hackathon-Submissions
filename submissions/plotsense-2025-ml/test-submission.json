@@ -1,0 +1,19 @@
+{
+  "id": "PSH2025-001",
+  "track": "PlotSense ML",
+  "project_name": "Test ML Project for Validation",
+  "team_name": "Test Team Alpha",
+  "repo_url": "https://github.com/testteam/plotsenseai-hackathon-PSH2025-001",
+  "video_url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+  "social_links": [
+    "https://x.com/testteam/status/12345",
+    "https://linkedin.com/posts/testteam_plotsense-hackathon"
+  ],
+  "discord_handle": "testuser#1234",
+  "contact_email": "test@example.com",
+  "team_members": [
+    { "name": "John Doe", "role": "ML Engineer" },
+    { "name": "Jane Smith", "role": "Data Scientist" },
+    { "name": "Bob Johnson", "role": "Backend Developer" }
+  ]
+}

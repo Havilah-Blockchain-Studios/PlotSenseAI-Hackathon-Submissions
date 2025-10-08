@@ -1,0 +1,17 @@
+{
+  "id": "PSH2025-XXX",
+  "track": "PlotSense Dev",
+  "project_name": "PlotSense Anomaly Plugin",
+  "team_name": "Kings Team",
+  "repo_url": "https://github.com/YOURUSERNAME/plotsenseai-hackathon-PSH2025-XXX",
+  "video_url": "https://youtube.com/your-demo-video",
+  "social_links": [
+    "https://x.com/YOURUSERNAME/status/12345",
+    "https://linkedin.com/posts/YOURUSERNAME_plotsense-hackathon"
+  ],
+  "discord_handle": "yourdiscord#1234",
+  "contact_email": "your@email.com",
+  "team_members": [
+    { "name": "Kings", "role": "Fullstack Developer" }
+  ]
+}

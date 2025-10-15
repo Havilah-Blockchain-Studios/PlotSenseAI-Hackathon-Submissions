@@ -1,25 +1,27 @@
 
-# 🚀 Plotsense Hackathon Submissions
+# PlotSenseAI OpenSource Hackathon Submissions
 
-![Submission Validation](https://github.com/Havilah-Blockchain-Studios/PlotSenseAI-Hackathon-Submissions/workflows/Validate%20Submission/badge.svg)
+![Submission Validation](https://github.com/PlotSenseAI/PlotSenseAI-Hackathon-Submissions/workflows/Validate%20Submission/badge.svg)
 
-Welcome to the official submission repository for the **Plotsense Hackathon** hosted by **Havilah Academy**!
+Welcome to the official submission repository for the **PlotSenseAI Hackathon**
 
 ## Hackathon Submission Dashboard
 Access the live dashboard of submissions and their statuses here:
-[![Hackathon Dashboard](https://img.shields.io/badge/Dashboard-View%20Submissions-blue?logo=github)](https://havilah-blockchain-studios.github.io/PlotSenseAI-Hackathon-Submissions/)
+[![Hackathon Dashboard](https://img.shields.io/badge/Dashboard-View%20Submissions-blue?logo=github)](https://plotsenseai.github.io/PlotSenseAI-Hackathon-Submissions/)
 
-## 🏆 Prize Pool Breakdown
+## Prize Pool Breakdown
 
-💰 **Total Prize Pool: £600**
+**Total Prize Pool: £600**
 
-### 🏅 Track 1 — PlotSense ML (£200)
+### Track 1 — PlotSense ML (£200)
 Use PlotSenseAI as your primary tool for exploratory data analysis (EDA) in a machine learning project.
 
-### 🏅 Track 2 — PlotSense Dev (£400)
+### Track 2 — PlotSense Dev (£400)
 Develop modules that add advanced analytical capabilities to PlotSenseAI's core functionality.
 
-## 📋 Submission Process
+**For detailed guidelines on Dev Track contributions, see [DEV_TRACK_GUIDE.md](DEV_TRACK_GUIDE.md)**
+
+## Submission Process
 
 ### Step 1: Fill the Submission Form
 - Complete the [Google Form](https://forms.gle/pdBzSpuJ9iV3Tkhy8 "Open the submission form") with:
@@ -42,8 +44,11 @@ Create a **public GitHub repository** with:
 
 ### Step 3: Submit to This Repository
 
-#### 🍴 Fork & Create Submission
-1. **Fork** this repository to your GitHub account
+> **Important:** Submit your entry to the official PlotSense Hackathon Submissions repository:
+> **https://github.com/PlotSenseAI/PlotSenseAI-Hackathon-Submissions/**
+
+#### Fork & Create Submission
+1. **Fork** the [PlotSenseAI-Hackathon-Submissions](https://github.com/PlotSenseAI/PlotSenseAI-Hackathon-Submissions) repository to your GitHub account
 2. **Choose your track** and navigate to the appropriate directory:
    - **PlotSense ML Track**: `submissions/plotsense-2025-ml/`
    - **PlotSense Dev Track**: `submissions/plotsense-2025-dev/`
@@ -81,6 +86,10 @@ Create a **public GitHub repository** with:
   "team_name": "Your Team Name",
   "repo_url": "https://github.com/yourteam/plotsenseai-hackathon-PSH2025-XXX",
   "video_url": "https://youtube.com/your-demo-video",
+  "contribution_prs": [
+    "https://github.com/plotsenseai/plotsenseai/pull/123",
+    "https://github.com/plotsenseai/plotsenseai/pull/124"
+  ],
   "social_links": [
     "https://x.com/yourteam/status/12345",
     "https://linkedin.com/posts/yourteam_plotsense-hackathon"
@@ -94,7 +103,7 @@ Create a **public GitHub repository** with:
 }
 ```
 
-#### 📤 Submit Pull Request
+#### Submit Pull Request
 1. **Commit** your JSON file to your fork
 2. **Open a Pull Request** to the `review` branch
 3. **PR Title:** `Submission: [YOUR-ID] - [Project Name]`
@@ -107,21 +116,21 @@ Create a **public GitHub repository** with:
 
 ### Step 5: Social Media
 - Post about your project on Twitter/X and LinkedIn
-- Use hashtags: `#PlotSenseAIHackathon2025 #HavilahAcademy`
-- Tag: `@HavilahAcademy` and `@PlotSenseAI`
+- Use hashtags: `#PlotSenseAI #PlotSenseAIHackathon2025 #HavilahAcademy`
+- Tag: `@PlotSenseAI` and `@HavilahAcademy`
 - Add links to your submission JSON
 
 ### Step 6: Discord Verification
 Post in the `#submissions` Discord channel with:
 - GitHub repo link
 
-## 🔀 Branch Structure
+## Branch Structure
 
 - **`main`** → Official docs and approved submissions
 - **`review`** → Submit PRs here for review
 - **`archive/plotsense-2025`** → Post-hackathon archive
 
-## ✅ Requirements Checklist
+## Requirements Checklist
 
 Before submitting, ensure you have:
 - [ ] Filled out the Google Form and received your User ID
@@ -132,39 +141,40 @@ Before submitting, ensure you have:
 - [ ] Uploaded your demo video
 - [ ] Posted on Twitter/X and LinkedIn with required hashtags
 - [ ] Starred PlotSense Github
-- [ ] Followed Havilah Academy and PlotSenseAI on X/Twitter, LinkedIn, and YouTube
+- [ ] Followed PlotSenseAI and Havilah Academy on X/Twitter, LinkedIn, and YouTube
 - [ ] Posted in Discord #submissions channel
 
-## 🎯 Important Notes
+## Important Notes
 
 - **One submission per team** - Only one JSON file per team
 - **Valid contact email required** - We'll use it for updates
 - **Complete all requirements** - Incomplete submissions may not be considered
 - **Public repositories only** - Ensure your project repo is public
 
-## 🤖 Automated Validation
+## Automated Validation
 
 When you submit your PR, our automated system will:
-- ✅ **Validate your JSON format** - Check all required fields are present
-- ✅ **Verify User ID format** - Ensure it matches PSH2025-XXX pattern
-- ✅ **Check repository URL** - Confirm it's a GitHub URL with your User ID
-- ✅ **Validate social media** - Ensure both Twitter/X and LinkedIn links are provided
-- ✅ **Verify email format** - Check your contact email is valid
-- ✅ **Review team structure** - Validate team member information
+- **Validate your JSON format** - Check all required fields are present
+- **Verify User ID format** - Ensure it matches PSH2025-XXX pattern
+- **Check repository URL** - Confirm it's a GitHub URL with your User ID
+- **Validate social media** - Ensure both Twitter/X and LinkedIn links are provided
+- **Verify email format** - Check your contact email is valid
+- **Review team structure** - Validate team member information
 
 The bot will comment on your PR with validation results. **Fix any issues** and push changes to re-trigger validation.
 
-## 🏆 Post-Hackathon
+## Post-Hackathon
 
 After the hackathon, all approved submissions will be:
+- Showcased on the PlotSenseAI website
 - Showcased on the Havilah Academy website
 - Archived in the `archive/plotsense-2025` branch
 - Featured in our community highlights
 
 ---
 
-**Questions?** Reach out in the Discord server or contact the Havilah Academy team.
+**Questions?** Reach out in the Discord server.
 
-Shalom with love from Havilah Academy and happy hacking! 🚀
+Happy hacking!
 
 
